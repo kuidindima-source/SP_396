@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Устранение полос прокрутки для блоков математических формул */
+.katex-display {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  margin: 0.35em 0 !important;
+}
+
+.katex-display > .katex {
+  max-width: 100%;
+  white-space: normal;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Расчет радиусов кривых (СП 396) ж1 ж2 ж4",
+  "description": "Интерактивная расчетная программа минимального радиуса кривых в плане по СП 396.1325800.2018 (Приложение Ж) с пошаговым прозрачным выводом математики.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
